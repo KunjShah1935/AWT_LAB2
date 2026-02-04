@@ -9,10 +9,11 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 
-# Runtime files
+# Runtime data
 pids
 *.pid
 *.seed
+*.pid.lock
 
 # Build outputs
 dist/
@@ -20,7 +21,7 @@ build/
 coverage/
 *.tgz
 
-# Environment
+# Environment variables
 .env
 .env.*.local
 .env.local
@@ -29,7 +30,7 @@ coverage/
 .DS_Store
 Thumbs.db
 
-# IDE/editor
+# IDE/Editor
 .vscode/
 .idea/
 *.suo
@@ -37,7 +38,7 @@ Thumbs.db
 *.njsproj
 *.sln
 
-# Optional npm cache
+# npm
 .npm/
 
 # Misc
